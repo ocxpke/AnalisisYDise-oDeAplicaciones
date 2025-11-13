@@ -1,0 +1,158 @@
+@startuml
+abstract class Sesion {
+  - id: int
+  + hacerCompra()
+  + hacerDonativo()
+  + solicitarCertificado(): CertificadoDonacion
+}
+
+
+class Usuario extends Sesion {
+  - nombre: String
+  - apellidos: String
+  - dni: String
+  - email: String
+}
+
+class UsuarioLogueado extends Usuario {
+  - aceptaNewsletter: boolean
+  - fechaNacimiento: Date
+  - codigoPostal: String
+  - numTelefono: int
+}
+
+class Login {
+  + {static} login(email: String, password: String): Sesion
+  + {static} loginComoInvitado(nombre: String, apellidos: String, dni: String, numTelefono: int): Usuario
+  + {static} registrarUsuario(): void
+}
+
+class Socio extends UsuarioLogueado {
+  - cuotaMensual: int
+  - fechaDeAlta: Date
+  + pagarCuota()
+  + cancelarSubscripcion()
+}
+
+class Voluntario extends UsuarioLogueado {
+  - tareasAsignadas:
+  + cancelarVoluntariado()
+}
+
+class Administrador extends Sesion {
+  + gestionarEventos()
+  + modificarEntradas()
+}
+
+class Evento {
+  - id: int
+  - nombre: String
+  - tipo: String
+  - fecha: Date
+  - ubicacion: String
+  - aforo: int
+  - recaudacionActual: double
+  - objetivoRecuadacion: double
+  - tipoEvento: enum
+  - estadoEvento: enum
+  - entradas: List<Entrada>
+  + actualizarRecaudacion()
+  + notificar(msg: String)
+  + generarEntradas()
+}
+
+class Entrada {
+  - id: int
+  - zona: int
+  - fila: int
+  - asiento: int
+  - precio: double
+  - qrAsignado: CodigoQR
+  - evento: Evento
+  - comprador: Usuario
+  + asignarQR(qrAsignado: CodigoQR)
+  + validarEntrada()
+  + reembolsarEntrada()
+}
+
+class CodigoQR {
+  - id: int
+  - code: string
+  + crearQR()
+}
+
+class Donativo {
+  - id: int
+  - cantidad: double
+  - fecha: Date
+  - donante: Usuario
+  - eventoAsociado: Evento
+  + generarCertificado(): CertificadoDonacion
+  + realizarPago()
+}
+
+class CertificadoDonacion {
+  - idCertificado: int
+  - fecha: Date
+  - donacion: Donativo
+  - codigoValidacion: String
+  + validarCertificado()
+}
+
+class Pago {
+  - id: int
+  - metodoPago: enum
+  - estadoPago: enum
+  + procesarPago()
+  + devolverImporte()
+}
+
+class Notificacion {
+  - id: int
+  - mensaje: String
+  - fechaEnvio: Date
+  - eventoNotificado: Evento
+  + enviar()
+  + programarRecordatorio()
+}
+
+class ManejadorEventos {
+  - eventos: List<Evento>
+  + crearEvento()
+  + cancelarEvento()
+  + consultarEvento(idEvento: int)
+  + calcularRecaudacion()
+  + modificarEvento()
+}
+
+class Compra {
+  - id: int
+  - fechaCompra: Date
+  - cantidad: double
+  + realizarPago()
+  + generarFactura()
+}
+
+Login "1" -- "*" Sesion: crea
+
+Usuario "1" -- "*" Donativo : realiza
+Usuario "1" -- "*" Compra : realiza
+Usuario "1" -- "*" Notificacion : es notificado
+
+Donativo "1" -- "1" CertificadoDonacion : genera
+Donativo "1" *-- "0..1" Evento : asociado a
+Donativo "1" -- "1" Pago : hace
+
+Compra "1" -- "*" Entrada : contiene
+Compra "1" -- "1" Pago : hace
+
+Evento "1" -- "*" Notificacion : crea
+Evento "1" -- "*" Entrada : genera
+
+Entrada "1" *-- "1" CodigoQR : tiene
+Entrada "1" *-- "1" Evento: asociada a
+
+ManejadorEventos "1" -- "*" Evento : gestiona
+
+Administrador "1" -- "1" ManejadorEventos : usa
+@enduml
