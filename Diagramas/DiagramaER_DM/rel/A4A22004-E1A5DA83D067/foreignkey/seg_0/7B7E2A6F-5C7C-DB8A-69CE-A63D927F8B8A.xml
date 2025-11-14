@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B7E2A6F-5C7C-DB8A-69CE-A63D927F8B8A" containerWithKeyObject="03ED8260-1ACD-0CBF-4E7D-00CEC8EACB69" localFKIndex="DFD6A09F-D901-0DA2-69CA-98C41B8944F5" name="Pago_Evento_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:30:13 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<referredTableLongName>Evento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F292365-3385-328B-5EBE-C537662931BB</referredTableID>
+<keyObject>EFAB337E-BA77-3636-160A-7AB6C7605F4E</keyObject>
+<referredKeyID>EFAB337E-BA77-3636-160A-7AB6C7605F4E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

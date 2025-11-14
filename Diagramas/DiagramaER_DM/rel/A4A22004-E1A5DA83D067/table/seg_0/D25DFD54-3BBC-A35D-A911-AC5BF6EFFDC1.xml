@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D25DFD54-3BBC-A35D-A911-AC5BF6EFFDC1" name="UsuarioLogueado">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:36:56 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5288247F-CC5E-5FDB-8FCB-57A8A881EE84">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:40:19 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F873B3D-8AA8-1BD0-CE63-85C57F224D1D" referredColumn="5C3276A0-853D-B2BB-BE97-1A6B849655C0"/>
+</associations>
+</Column>
+<Column name="aceptaNewsletter" id="887EBEE9-AFE5-129D-1C99-C91E29B8F628">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:37:27 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaNacimiento" id="AD4A3B99-C85A-288D-3DD5-57A2669B9958">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:37:42 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigoPostal" id="7D076730-7936-6821-4C88-538F6815BAB4">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:38:06 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A726FB05-A62D-D10A-5DAE-703DA071E553" name="UsuarioLogueado_PK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:40:19 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5288247F-CC5E-5FDB-8FCB-57A8A881EE84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="130E7AB3-5E92-DA68-3D61-CADBDE067FC0" name="UsuarioLogueado_Usuario_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:44:50 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5288247F-CC5E-5FDB-8FCB-57A8A881EE84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

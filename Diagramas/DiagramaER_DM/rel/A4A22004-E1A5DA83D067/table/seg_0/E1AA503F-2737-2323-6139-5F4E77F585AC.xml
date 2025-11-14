@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1AA503F-2737-2323-6139-5F4E77F585AC" name="Donacion">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:19:27 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="73CACC56-6B81-C671-1C24-F0BCAC64BDA6">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:19:46 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="ECC4E581-9914-5B18-8ACD-14B4881D93F4">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:19:55 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="70194F6A-7F3B-CE83-4EB1-CD925A4C3A06">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:20:20 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_id" id="D45C6B05-4B78-1118-B0F3-2829815DDF22">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:21:00 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E256F35-081B-7AFA-4EF6-2354D2EB1266" referredColumn="5C3276A0-853D-B2BB-BE97-1A6B849655C0"/>
+</associations>
+</Column>
+<Column name="Evento_id" id="34F5F7CB-C9A4-8B51-7AB4-948D9627C4FD">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:21:10 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9B18043-CB55-A5F3-C8CB-39507DF30713" referredColumn="3B0D15FE-1077-4DDF-FCD5-0FDFEF855A41"/>
+</associations>
+</Column>
+<Column name="Pago_id" id="64BD1D06-BCF6-FB77-E32A-6D87964908C6">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:37:02 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9A5BD9E-83EA-05C7-0027-A70EE87011A1" referredColumn="80AC585F-1B79-CA6B-E889-4D7D12D9EF31"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63FD5B9E-9EBA-0758-EEA7-EB828A0AC715" name="Donacion_PK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:20:44 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73CACC56-6B81-C671-1C24-F0BCAC64BDA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9797313-643C-04E4-8812-E3E8280FC7CD" name="Donacion_UsuarioDonante_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:21:00 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D45C6B05-4B78-1118-B0F3-2829815DDF22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCC33078-DA97-9948-B040-BB6BAD3A9432" name="Donacion_Evento_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:21:10 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34F5F7CB-C9A4-8B51-7AB4-948D9627C4FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A82E304-69FC-6355-701A-4FDD2ABBB4E4" name="Donacion_Pago_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:37:02 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64BD1D06-BCF6-FB77-E32A-6D87964908C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

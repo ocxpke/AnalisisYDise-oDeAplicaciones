@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C173011F-1311-611E-C64F-C6B742A9227C" containerWithKeyObject="34122E27-EABA-2BC0-5231-B34DDC87F15A" localFKIndex="B7F29607-58EA-DD9A-AC9D-25F20B49EEA1" name="Entrada_CodigoQr_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:13:20 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<referredTableLongName>CodigoQr</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C0302455-67B6-3F03-D3A2-3CB0BCB9477C</referredTableID>
+<keyObject>CF12C052-D40B-9D7A-44AF-B4FE04E2C962</keyObject>
+<referredKeyID>CF12C052-D40B-9D7A-44AF-B4FE04E2C962</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

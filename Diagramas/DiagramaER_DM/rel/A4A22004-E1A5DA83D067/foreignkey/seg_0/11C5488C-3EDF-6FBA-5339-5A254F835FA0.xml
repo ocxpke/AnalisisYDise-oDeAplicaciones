@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11C5488C-3EDF-6FBA-5339-5A254F835FA0" containerWithKeyObject="3D393CC8-D17F-1902-9D32-BBBEDB5A70EA" localFKIndex="C59A9BA7-5B02-96E9-F32C-70854EBF699F" name="Voluntario_UsuarioLogueado_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:47:52 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<referredTableLongName>UsuarioLogueado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D25DFD54-3BBC-A35D-A911-AC5BF6EFFDC1</referredTableID>
+<keyObject>A726FB05-A62D-D10A-5DAE-703DA071E553</keyObject>
+<referredKeyID>A726FB05-A62D-D10A-5DAE-703DA071E553</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

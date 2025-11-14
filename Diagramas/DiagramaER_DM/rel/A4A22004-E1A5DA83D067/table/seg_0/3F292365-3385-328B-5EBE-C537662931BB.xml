@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F292365-3385-328B-5EBE-C537662931BB" name="Evento">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:14:33 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3B0D15FE-1077-4DDF-FCD5-0FDFEF855A41">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:14:49 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E6C97523-5C33-C9B8-D752-0CB680DD7E6D">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:15:09 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="70679F48-5628-E77C-5BC3-16543BFC7A6F">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:15:17 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="74BE59FB-5E8A-CAAE-695B-6AFE3AB1B02F">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:15:25 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion" id="D82DF6DF-462F-BCE4-CD6B-1DA28CA53472">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:15:36 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aforo" id="52B02DFF-EB76-6C27-EE67-C7A4328B2112">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:15:47 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="recaudacionActual" id="26CCEFF7-B3BC-7DF7-0133-75B79C84C096">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:15:57 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="objetivoRecaudacion" id="3C048DF8-1C26-6240-2B98-114D1F45E16F">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:16:10 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoEvento" id="FF6E77F2-2B03-DFF5-2A5F-7F0F45AC6106">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:16:40 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadoEvento" id="099282CE-D368-F827-F94E-ED3281D61FCC">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:16:52 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="entradas" id="DF9B02B2-735E-7A59-1726-BBC58A5EAD63">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:17:10 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EFAB337E-BA77-3636-160A-7AB6C7605F4E" name="Evento_PK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:17:21 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B0D15FE-1077-4DDF-FCD5-0FDFEF855A41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

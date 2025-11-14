@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34122E27-EABA-2BC0-5231-B34DDC87F15A" name="Entrada">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:09:45 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="66BCF16A-DD36-0129-1080-27F947478793">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:10:29 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zona" id="E4C59C99-4494-721F-2AA4-4722868F8D40">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:10:47 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fila" id="E788222A-3FF6-39BC-3E6C-0806B4F11B77">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:11:05 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="asiento" id="75498411-0597-3DB7-32D7-D3FF6927A722">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:11:15 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="B4229306-9AF3-70EE-FCCD-94B97094053A">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:11:24 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodigoQr_id" id="A6EB8D1D-709F-D96F-44E1-C92B2A98B812">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:13:20 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C173011F-1311-611E-C64F-C6B742A9227C" referredColumn="D1FFBFA2-7487-81CE-9D55-4D8532085374"/>
+</associations>
+</Column>
+<Column name="Evento_id" id="E3A3AE9E-B16C-1F65-DD72-17F27D0FD0D9">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:32:30 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30BCBEFB-B670-34DF-CCCC-71BD496E16E2" referredColumn="3B0D15FE-1077-4DDF-FCD5-0FDFEF855A41"/>
+</associations>
+</Column>
+<Column name="Usuario_id" id="8AFFAAFA-D28F-5563-A482-A4092346C4C2">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:33:23 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E48150EB-4E93-18DE-C41C-B589FD28A229" referredColumn="5C3276A0-853D-B2BB-BE97-1A6B849655C0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42C5264D-AD32-CEA5-8DB6-5B2AE9F967DA" name="Entrada_PK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:10:56 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66BCF16A-DD36-0129-1080-27F947478793"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7F29607-58EA-DD9A-AC9D-25F20B49EEA1" name="Entrada_CodigoQr_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:13:20 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6EB8D1D-709F-D96F-44E1-C92B2A98B812"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F16F8A98-3303-ADB8-F591-2888675D8423" name="Entrada_Evento_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:32:30 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3A3AE9E-B16C-1F65-DD72-17F27D0FD0D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC0F34F8-FE56-6469-C41D-3D0786D3CA27" name="Entrada_UsuarioComprador_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:33:23 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AFFAAFA-D28F-5563-A482-A4092346C4C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0302455-67B6-3F03-D3A2-3CB0BCB9477C" name="CodigoQr">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:12:01 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D1FFBFA2-7487-81CE-9D55-4D8532085374">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:12:14 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo" id="D8D19CFC-5E13-9E2C-F308-82BD7F1E9AE7">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 23:04:26 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF12C052-D40B-9D7A-44AF-B4FE04E2C962" name="CodigoQr_PK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:12:17 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1FFBFA2-7487-81CE-9D55-4D8532085374"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="243D6AD6-ADDA-1FF2-1007-99C8CF69CCA0" name="CodigoQr__UN">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 23:04:53 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8D19CFC-5E13-9E2C-F308-82BD7F1E9AE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

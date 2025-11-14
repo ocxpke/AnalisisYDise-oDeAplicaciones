@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB67C8CE-928C-2A6F-CE94-5EBA5747FB34" name="Notificacion">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:54:31 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="63BD361B-B4A2-BE30-3CC6-60666475ED3C">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:54:51 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mensaje" id="DFD11302-26CC-F75F-8F68-36EE828AE9D2">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:56:00 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaEnvio" id="15D2876F-E261-B46F-DE15-9E525089215E">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:56:09 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eventoNotificado" id="17188662-CC1C-4501-811F-820355A10FB9">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:56:42 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Evento_id" id="E6CB8FC7-2335-606F-7DB5-ED5385A22EFE">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:18:53 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA2BD07D-6237-32E8-014C-5CA3C089C735" referredColumn="3B0D15FE-1077-4DDF-FCD5-0FDFEF855A41"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60CC225E-6B3E-95F1-2702-93BEC1A86A7F" name="Notificacion_PK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:56:47 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63BD361B-B4A2-BE30-3CC6-60666475ED3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F4E03BE-6629-0F04-A71E-065B58516639" name="Notificacion_Evento_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:18:53 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6CB8FC7-2335-606F-7DB5-ED5385A22EFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

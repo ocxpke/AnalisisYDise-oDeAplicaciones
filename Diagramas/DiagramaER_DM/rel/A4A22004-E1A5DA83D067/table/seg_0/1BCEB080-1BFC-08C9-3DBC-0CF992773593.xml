@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BCEB080-1BFC-08C9-3DBC-0CF992773593" name="Compra">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:35:03 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="390E947B-A46A-763D-89C9-CAD81CA1211C">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:35:14 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaCompra" id="4CB2E1EC-DA7E-9DB0-B7B5-C9918ED252FA">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:35:40 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="55014D8E-A973-8488-1358-9FE8E427AECB">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:35:50 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_id" id="E1853194-6B86-34B2-0D17-8AA06DCEBFD8">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:35:56 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C369313-AC85-253C-D6C1-618C69EC6CCB" referredColumn="5C3276A0-853D-B2BB-BE97-1A6B849655C0"/>
+</associations>
+</Column>
+<Column name="Pago_id" id="CBE48588-2B63-FFC0-192C-1DCF8F58BF1A">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:38:05 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="694D1892-A59C-A36B-4728-1C200A0EDEAF" referredColumn="80AC585F-1B79-CA6B-E889-4D7D12D9EF31"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83B7E54F-1EEA-A564-63AF-0D1B345389A7" name="Compra_PK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:35:14 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="390E947B-A46A-763D-89C9-CAD81CA1211C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C12102F-FB24-DB54-FD27-3229884A7533" name="Compra_Usuario_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:35:56 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1853194-6B86-34B2-0D17-8AA06DCEBFD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD9AC73D-5494-F5CB-EAF3-ED0040BF44DA" name="Compra_Pago_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 22:38:05 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBE48588-2B63-FFC0-192C-1DCF8F58BF1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

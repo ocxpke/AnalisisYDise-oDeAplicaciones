@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F955647-99D1-0A8E-DDC8-91E88A84886B" name="Socio">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:47:59 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="ECFE3B1B-7733-E4D9-9C3D-08700EBD9B89">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:48:16 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63E38B02-DA40-D059-AAAF-8FFF3190C2CA" referredColumn="5288247F-CC5E-5FDB-8FCB-57A8A881EE84"/>
+</associations>
+</Column>
+<Column name="fechaDeAlta" id="8B188F28-324E-B8BF-55A9-7E41F7442F41">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:48:22 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cuotaMensual" id="5F0D59A2-F3F8-609C-7065-822455459FF0">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 23:01:16 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5FC94B8-4657-6054-6264-41218B425494" name="Socio_PK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:48:16 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECFE3B1B-7733-E4D9-9C3D-08700EBD9B89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="563F0677-53C5-E2E1-F182-2C71D24E6EEC" name="Socio_UsuarioLogueado_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-14 19:48:44 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECFE3B1B-7733-E4D9-9C3D-08700EBD9B89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
