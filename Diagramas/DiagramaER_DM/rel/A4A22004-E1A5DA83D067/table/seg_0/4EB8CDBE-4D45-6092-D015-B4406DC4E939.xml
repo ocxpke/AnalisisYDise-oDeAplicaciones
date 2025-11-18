@@ -8,15 +8,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="A7417FD3-7103-1FAF-8984-A505A38F60C9">
+<Column name="Donacion_id" id="7C82730F-10E0-3BFC-0DD0-530C94CF75B8">
 <createdBy>Yago</createdBy>
-<createdTime>2025-11-14 22:31:06 UTC</createdTime>
+<createdTime>2025-11-14 22:31:45 UTC</createdTime>
 <ownerDesignName>DiagramaER_DM</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF712306-C65B-5E8B-52A6-88FE970BB35E" referredColumn="73CACC56-6B81-C671-1C24-F0BCAC64BDA6"/>
+</associations>
 </Column>
 <Column name="fecha" id="BE923557-70D8-C4A8-DBBB-82597456CE69">
 <createdBy>Yago</createdBy>
@@ -40,20 +44,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Donacion_id" id="7C82730F-10E0-3BFC-0DD0-530C94CF75B8">
-<createdBy>Yago</createdBy>
-<createdTime>2025-11-14 22:31:45 UTC</createdTime>
-<ownerDesignName>DiagramaER_DM</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="FF712306-C65B-5E8B-52A6-88FE970BB35E" referredColumn="73CACC56-6B81-C671-1C24-F0BCAC64BDA6"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="372C1486-5C31-CC3E-F60F-ED1F877515A9" name="CertificadoDonacion_PK">
@@ -64,7 +54,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A7417FD3-7103-1FAF-8984-A505A38F60C9"/>
+<colUsage columnID="7C82730F-10E0-3BFC-0DD0-530C94CF75B8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="3536783E-9F16-2968-C801-4642A5B6F12B" name="CertificadoDonacion__UN">

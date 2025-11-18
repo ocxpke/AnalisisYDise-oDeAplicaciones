@@ -95,6 +95,16 @@
 <colUsage columnID="73CACC56-6B81-C671-1C24-F0BCAC64BDA6"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="58A75CC3-04FA-8B94-20DF-DFAB88F894EE" name="Donacion__UN">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-18 22:11:36 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64BD1D06-BCF6-FB77-E32A-6D87964908C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="F9797313-643C-04E4-8812-E3E8280FC7CD" name="Donacion_UsuarioDonante_FK">
 <createdBy>Yago</createdBy>
 <createdTime>2025-11-14 22:21:00 UTC</createdTime>

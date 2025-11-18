@@ -36,20 +36,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Evento_id" id="84D0F064-AA25-CAD6-CE78-39A9BA8EE30C">
-<createdBy>Yago</createdBy>
-<createdTime>2025-11-14 22:30:13 UTC</createdTime>
-<ownerDesignName>DiagramaER_DM</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7B7E2A6F-5C7C-DB8A-69CE-A63D927F8B8A" referredColumn="3B0D15FE-1077-4DDF-FCD5-0FDFEF855A41"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="9B74540E-6A6D-7225-020E-487C8707EB36" name="Pago_PK">
@@ -61,16 +47,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="80AC585F-1B79-CA6B-E889-4D7D12D9EF31"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="DFD6A09F-D901-0DA2-69CA-98C41B8944F5" name="Pago_Evento_FK">
-<createdBy>Yago</createdBy>
-<createdTime>2025-11-14 22:30:13 UTC</createdTime>
-<ownerDesignName>DiagramaER_DM</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="84D0F064-AA25-CAD6-CE78-39A9BA8EE30C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

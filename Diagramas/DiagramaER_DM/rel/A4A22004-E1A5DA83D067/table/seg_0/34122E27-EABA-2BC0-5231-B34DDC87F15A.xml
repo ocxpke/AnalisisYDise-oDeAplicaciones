@@ -62,20 +62,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CodigoQr_id" id="A6EB8D1D-709F-D96F-44E1-C92B2A98B812">
-<createdBy>Yago</createdBy>
-<createdTime>2025-11-14 22:13:20 UTC</createdTime>
-<ownerDesignName>DiagramaER_DM</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C173011F-1311-611E-C64F-C6B742A9227C" referredColumn="D1FFBFA2-7487-81CE-9D55-4D8532085374"/>
-</associations>
-</Column>
 <Column name="Evento_id" id="E3A3AE9E-B16C-1F65-DD72-17F27D0FD0D9">
 <createdBy>Yago</createdBy>
 <createdTime>2025-11-14 22:32:30 UTC</createdTime>
@@ -115,16 +101,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="66BCF16A-DD36-0129-1080-27F947478793"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="B7F29607-58EA-DD9A-AC9D-25F20B49EEA1" name="Entrada_CodigoQr_FK">
-<createdBy>Yago</createdBy>
-<createdTime>2025-11-14 22:13:20 UTC</createdTime>
-<ownerDesignName>DiagramaER_DM</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A6EB8D1D-709F-D96F-44E1-C92B2A98B812"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="F16F8A98-3303-ADB8-F591-2888675D8423" name="Entrada_Evento_FK">

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="18D6C708-CCE1-E3CE-6DFC-328355963116" containerWithKeyObject="C0302455-67B6-3F03-D3A2-3CB0BCB9477C" localFKIndex="CB145754-8ED5-A24F-2178-EEC7D667776F" name="CodigoQr_Entrada_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-18 21:59:56 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<referredTableLongName>Entrada</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>34122E27-EABA-2BC0-5231-B34DDC87F15A</referredTableID>
+<keyObject>42C5264D-AD32-CEA5-8DB6-5B2AE9F967DA</keyObject>
+<referredKeyID>42C5264D-AD32-CEA5-8DB6-5B2AE9F967DA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

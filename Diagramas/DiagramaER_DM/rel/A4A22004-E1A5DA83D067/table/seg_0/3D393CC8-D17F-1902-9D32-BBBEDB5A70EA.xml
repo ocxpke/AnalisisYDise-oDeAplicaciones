@@ -17,9 +17,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="11C5488C-3EDF-6FBA-5339-5A254F835FA0" referredColumn="5288247F-CC5E-5FDB-8FCB-57A8A881EE84"/>
-</associations>
 </Column>
 <Column name="tareasAsignadas" id="668D726C-1186-F7B8-1888-85BA6055B8CB">
 <createdBy>Yago</createdBy>
@@ -31,6 +28,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Evento_id" id="941AECD7-384F-210A-72D8-088AFBA3F2A2">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-18 21:54:46 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2D1AB71-1C7E-5E0C-2CF2-0ADE0362B5B4" referredColumn="3B0D15FE-1077-4DDF-FCD5-0FDFEF855A41"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -45,14 +56,14 @@
 <colUsage columnID="CE230DD5-5718-F41D-4C45-0DB8B73F6D7D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C59A9BA7-5B02-96E9-F32C-70854EBF699F" name="Voluntario_UsuarioLogueado_FK">
+<ind_PK_UK id="2AE84A18-51A5-BCE4-65A9-D1880756F6E1" name="Voluntario_Evento_FK">
 <createdBy>Yago</createdBy>
-<createdTime>2025-11-14 19:47:52 UTC</createdTime>
+<createdTime>2025-11-18 21:54:46 UTC</createdTime>
 <ownerDesignName>DiagramaER_DM</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CE230DD5-5718-F41D-4C45-0DB8B73F6D7D"/>
+<colUsage columnID="941AECD7-384F-210A-72D8-088AFBA3F2A2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

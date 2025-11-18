@@ -8,15 +8,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="D1FFBFA2-7487-81CE-9D55-4D8532085374">
+<Column name="Entrada_id" id="85D15E40-C760-BFA1-D33E-FA260C9CD92A">
 <createdBy>Yago</createdBy>
-<createdTime>2025-11-14 22:12:14 UTC</createdTime>
+<createdTime>2025-11-18 21:59:56 UTC</createdTime>
 <ownerDesignName>DiagramaER_DM</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18D6C708-CCE1-E3CE-6DFC-328355963116" referredColumn="66BCF16A-DD36-0129-1080-27F947478793"/>
+</associations>
 </Column>
 <Column name="codigo" id="D8D19CFC-5E13-9E2C-F308-82BD7F1E9AE7">
 <createdBy>Yago</createdBy>
@@ -39,7 +43,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D1FFBFA2-7487-81CE-9D55-4D8532085374"/>
+<colUsage columnID="85D15E40-C760-BFA1-D33E-FA260C9CD92A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="243D6AD6-ADDA-1FF2-1007-99C8CF69CCA0" name="CodigoQr__UN">
@@ -50,6 +54,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D8D19CFC-5E13-9E2C-F308-82BD7F1E9AE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB145754-8ED5-A24F-2178-EEC7D667776F" name="CodigoQr_Entrada_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-18 21:59:56 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85D15E40-C760-BFA1-D33E-FA260C9CD92A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -6,19 +6,19 @@ abstract class Sesion {
   + solicitarCertificado(): CertificadoDonacion
 }
 
-
 class Usuario extends Sesion {
   - nombre: String
   - apellidos: String
   - dni: String
   - email: String
+  - codigoPostal: String
+  - telefono: String
 }
 
 class UsuarioLogueado extends Usuario {
   - aceptaNewsletter: boolean
   - fechaNacimiento: Date
-  - codigoPostal: String
-  - numTelefono: int
+  - direccion
 }
 
 class Login {
@@ -32,11 +32,6 @@ class Socio extends UsuarioLogueado {
   - fechaDeAlta: Date
   + pagarCuota()
   + cancelarSubscripcion()
-}
-
-class Voluntario extends UsuarioLogueado {
-  - tareasAsignadas:
-  + cancelarVoluntariado()
 }
 
 class Administrador extends Sesion {

@@ -68,6 +68,20 @@
 <colAssociation fkAssociation="694D1892-A59C-A36B-4728-1C200A0EDEAF" referredColumn="80AC585F-1B79-CA6B-E889-4D7D12D9EF31"/>
 </associations>
 </Column>
+<Column name="Evento_id" id="FD57EB37-9C1D-D819-20E7-21B3C3E752D4">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-18 22:09:45 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B61E1B98-D4AD-8833-8FF7-67F99DE31780" referredColumn="3B0D15FE-1077-4DDF-FCD5-0FDFEF855A41"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="83B7E54F-1EEA-A564-63AF-0D1B345389A7" name="Compra_PK">
@@ -79,6 +93,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="390E947B-A46A-763D-89C9-CAD81CA1211C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40316FD2-1ADF-197E-E205-35890DBDCDAC" name="Compra__UN">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-18 22:11:24 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBE48588-2B63-FFC0-192C-1DCF8F58BF1A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="5C12102F-FB24-DB54-FD27-3229884A7533" name="Compra_Usuario_FK">
@@ -99,6 +123,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="CBE48588-2B63-FFC0-192C-1DCF8F58BF1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7872E3A5-0237-BBE3-4DF3-683D3DB393BB" name="Compra_Evento_FK">
+<createdBy>Yago</createdBy>
+<createdTime>2025-11-18 22:09:45 UTC</createdTime>
+<ownerDesignName>DiagramaER_DM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD57EB37-9C1D-D819-20E7-21B3C3E752D4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
