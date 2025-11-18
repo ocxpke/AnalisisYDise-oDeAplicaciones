@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://schema.omg.org/spec/UML/2.1">
+  <xmi:Documentation exporter="umbrello uml modeller 25.08.3 (Applications 25.08.3) http://umbrello.kde.org" exporterVersion="2.0.4"/>
+  <uml:Model xmi:id="m1" name="UML Model">
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="folder" name="folder"/>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="dataType" name="dataType"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Logical_View" name="Logical View" stereotype="folder">
+      <uml:Package xmi:id="Datatypes" name="Datatypes" stereotype="folder">
+        <packagedElement xmi:type="uml:DataType" xmi:id="u5nLEupRKMwV2" name="char" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uWPKtKdVTmPRH" name="int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u79wXcLZdWfPz" name="float" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="ubOQsd5BhDO9Z" name="double" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uU89rKY1FuK3J" name="bool" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="udQ25ac3j1InN" name="string" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uy6PJlIUYL87f" name="unsigned char" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="ueeQ1EA85HLNt" name="signed char" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uRJGPHB9ntWzj" name="unsigned int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="up7HpDYA5UMwU" name="signed int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uURo44CHaXMJb" name="short int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uMFjrvVIigrli" name="unsigned short int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uSi0sOY57mpQO" name="signed short int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uf0xHevdUmOpP" name="long int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uTXm7eeA5cEOF" name="signed long int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u8x0g0qiRAfYV" name="unsigned long int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="upTW6JDFLT0iW" name="long double" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uyFd3UYHDhJl3" name="wchar_t" stereotype="dataType"/>
+      </uml:Package>
+      <packagedElement xmi:type="uml:Class" xmi:id="uzC7hqMfiJSEK" name="paco"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="uFCt4pvYoeeNQ" name="Admin"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="uyJF2QNDDcdVV" name="Gestor de eventos"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="uwjHVcc9B4bCK" name="Gestor de Tickets"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="uad5h9Ee605Vn" name="Base de datos"/>
+      <xmi:Extension extender="umbrello">
+        <diagrams resolution="99">
+          <diagram xmi.id="uzQedgyCcB4q9" name="class diagram" type="1" documentation="" backgroundcolor="#ffffff" usebackgroundcolor="0" fillcolor="#ffffc0" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#990000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="100" canvasheight="800" canvaswidth="1100" isopen="1">
+            <widgets/>
+            <messages/>
+            <associations/>
+          </diagram>
+          <diagram xmi.id="usapqDP4qxRYp" name="diagramaSecuenciaModificarBorrarEvento" type="3" documentation="" backgroundcolor="#ffffff" usebackgroundcolor="0" fillcolor="#ffffc0" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#990000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="93.913" canvasheight="800" canvaswidth="1100" isopen="1" autoincrementsequence="1">
+            <widgets>
+              <combinedFragmentwidget xmi.id="uxC5GShwAMuVv" localid="uJBUhVJm0AKCm" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="0" x="-161.203" y="289.181" width="1394.7" height="320.878" isinstance="0" instancename="Modificar" showstereotype="2" combinedFragmentname="Modificar" documentation="" CombinedFragmenttype="1"/>
+              <floatingtext xmi.id="uYO6nzVBrPgZo" localid="ubZrZNqjNsbHi" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="371.231" y="457" width="305" height="23" isinstance="0" showstereotype="2" text="Actualizacion de la base de datos" pretext="" posttext="" role="704"/>
+              <objectwidget xmi.id="uad5h9Ee605Vn" localid="uPf11viMFwzL2" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="1044" y="80" width="154" height="29" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+              <objectwidget xmi.id="uFCt4pvYoeeNQ" localid="uNzjS3KBDwpB5" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="-66" y="80" width="82" height="64" isinstance="0" showstereotype="2" drawasactor="1" multipleinstance="0" decon="0"/>
+              <preconditionwidget xmi.id="umnSOP2ARH2Pf" localid="uHLbL9QhFb15B" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="256" y="814" width="215" height="29" isinstance="0" showstereotype="2" widgetaid="uSOwvRYYiAScr" preconditionname="Reembolso de tickets" documentation=""/>
+              <objectwidget xmi.id="uyJF2QNDDcdVV" localid="uSOwvRYYiAScr" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="268.612" y="80" width="190" height="29" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+              <preconditionwidget xmi.id="u2EH3cQ8NjvPz" localid="ugfTyk2n3pHKO" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="265" y="432" width="197" height="29" isinstance="0" showstereotype="2" widgetaid="uSOwvRYYiAScr" preconditionname="Evento actualizado" documentation=""/>
+              <preconditionwidget xmi.id="uCstRIa60gchM" localid="uIAvyJ0DWdKCd" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="-105" y="178" width="161" height="29" isinstance="0" showstereotype="2" widgetaid="uNzjS3KBDwpB5" preconditionname="Login as admin" documentation=""/>
+              <combinedFragmentwidget xmi.id="uVWITsEzsjeci" localid="uNkGxxx5Q0R7F" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="0" x="-163.353" y="639.331" width="1383.03" height="348.685" isinstance="0" showstereotype="2" combinedFragmentname="" documentation="" CombinedFragmenttype="1"/>
+              <objectwidget xmi.id="uwjHVcc9B4bCK" localid="utZjt50jzYDB9" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="672.165" y="80" width="190" height="29" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+              <combinedFragmentwidget xmi.id="uxC5GShwAMuVv" localid="ujyt3VYNXtW6w" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="0" x="-161.203" y="289.181" width="1394.7" height="320.878" isinstance="0" instancename="Modificar" showstereotype="2" combinedFragmentname="Modificar" documentation="" CombinedFragmenttype="1"/>
+            </widgets>
+            <messages>
+              <messagewidget xmi.id="upSNdnlcy1tte" localid="uHhJ6ysGIJ2By" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="0" x="363" y="669.421" width="412" height="128" isinstance="0" showstereotype="2" seqnum="2" widgetaid="uSOwvRYYiAScr" widgetbid="utZjt50jzYDB9" operation="Borrar evento" sequencemessagetype="1000" textid="u4MH9XTlHKgX2">
+                <floatingtext xmi.id="u4MH9XTlHKgX2" localid="ufnq2bWlp2wYD" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="369" y="646" width="152" height="23" isinstance="0" showstereotype="2" text="Borrar evento" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="uRZHNerxZE59N" localid="uGwA2566KLNOP" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="-24" y="940.528" width="1144" height="8" isinstance="0" showstereotype="2" seqnum="4" widgetaid="uPf11viMFwzL2" widgetbid="uNzjS3KBDwpB5" operation="El evento no existe a nivel de usuario" sequencemessagetype="1001" textid="uBvIkjW7snHLI">
+                <floatingtext xmi.id="uBvIkjW7snHLI" localid="ulpDtQitEINQd" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="0" y="917" width="377" height="23" isinstance="0" showstereotype="2" text="El evento no existe a nivel de usuario" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="uTkt6CPwf1tAA" localid="uljDlMR5ZOQ0k" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="364" y="499.072" width="756" height="8" isinstance="0" showstereotype="2" seqnum="3" widgetaid="uSOwvRYYiAScr" widgetbid="uPf11viMFwzL2" operation="Actualizacion de la base de datos" sequencemessagetype="1001" textid="uwNZgh2eW2Qky">
+                <floatingtext xmi.id="uwNZgh2eW2Qky" localid="uRw3ne6w3xDxI" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="370" y="476" width="332" height="23" isinstance="0" showstereotype="2" text="Actualizacion de la base de datos" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="ugtyJt4j8rSwk" localid="ubgiEoabJrEWp" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="-24" y="579.37" width="1144" height="8" isinstance="0" showstereotype="2" seqnum="4" widgetaid="uPf11viMFwzL2" widgetbid="uNzjS3KBDwpB5" operation="Visualizacion del evento actualizado" sequencemessagetype="1001" textid="u2mgxKJClJFDS">
+                <floatingtext xmi.id="u2mgxKJClJFDS" localid="uFE7zxm4r5qju" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="0" y="556" width="359" height="23" isinstance="0" showstereotype="2" text="Visualizacion del evento actualizado" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="uHavoyJIhopOr" localid="uaH6vXlXgsCT9" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="-24" y="271" width="386" height="8" isinstance="0" showstereotype="2" seqnum="1" widgetaid="uNzjS3KBDwpB5" widgetbid="uSOwvRYYiAScr" operation="Seleccionar evento" sequencemessagetype="1001" textid="uHCAXfLFDAekN">
+                <floatingtext xmi.id="uHCAXfLFDAekN" localid="uIN3iumDZWott" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="0" y="248" width="197" height="23" isinstance="0" showstereotype="2" text="Seleccionar evento" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="uW6HdRSqxKxxY" localid="u2JPQIcyGIyWM" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="0" x="363" y="314.919" width="412" height="108" isinstance="0" showstereotype="2" seqnum="2" widgetaid="uSOwvRYYiAScr" widgetbid="utZjt50jzYDB9" operation="Modificar datos" sequencemessagetype="1000" textid="u6rzLcworSCOy">
+                <floatingtext xmi.id="u6rzLcworSCOy" localid="uSUEcOrFSsVQM" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="380" y="291" width="170" height="23" isinstance="0" showstereotype="2" text="Modificar datos" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="u553jISYnTIz5" localid="ucSf4agfxE8wR" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="364" y="875.987" width="756" height="8" isinstance="0" showstereotype="2" seqnum="3" widgetaid="uSOwvRYYiAScr" widgetbid="uPf11viMFwzL2" operation="Actualizacion de la base de datos" sequencemessagetype="1001" textid="uAF7VgD2ZD44m">
+                <floatingtext xmi.id="uAF7VgD2ZD44m" localid="uNBdUPkaYcOFv" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Adwaita Mono,11,-1,5,50,0,0,0,0,0" autoresize="1" x="370" y="852" width="332" height="23" isinstance="0" showstereotype="2" text="Actualizacion de la base de datos" pretext="" posttext="" role="704"/>
+              </messagewidget>
+            </messages>
+            <associations/>
+          </diagram>
+        </diagrams>
+      </xmi:Extension>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="Use_Case_View" name="Use Case View" stereotype="folder"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Component_View" name="Component View" stereotype="folder"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Deployment_View" name="Deployment View" stereotype="folder"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Entity_Relationship_Model" name="Entity Relationship Model" stereotype="folder"/>
+  </uml:Model>
+  <xmi:Extension extender="umbrello">
+    <docsettings viewid="usapqDP4qxRYp" documentation="" uniqueid="uNkGxxx5Q0R7F"/>
+    <listview>
+      <listitem id="Views" type="800" open="1">
+        <listitem id="Component_View" type="821" open="1"/>
+        <listitem id="Deployment_View" type="827" open="1"/>
+        <listitem id="Entity_Relationship_Model" type="836" open="1"/>
+        <listitem id="Logical_View" type="801" open="1">
+          <listitem id="uFCt4pvYoeeNQ" type="813" open="1"/>
+          <listitem id="uad5h9Ee605Vn" type="813" open="1"/>
+          <listitem id="uzQedgyCcB4q9" type="807" label="class diagram" open="0"/>
+          <listitem id="Datatypes" type="830" open="0">
+            <listitem id="uU89rKY1FuK3J" type="829" open="0"/>
+            <listitem id="u5nLEupRKMwV2" type="829" open="0"/>
+            <listitem id="ubOQsd5BhDO9Z" type="829" open="0"/>
+            <listitem id="u79wXcLZdWfPz" type="829" open="0"/>
+            <listitem id="uWPKtKdVTmPRH" type="829" open="0"/>
+            <listitem id="upTW6JDFLT0iW" type="829" open="0"/>
+            <listitem id="uf0xHevdUmOpP" type="829" open="0"/>
+            <listitem id="uURo44CHaXMJb" type="829" open="0"/>
+            <listitem id="ueeQ1EA85HLNt" type="829" open="0"/>
+            <listitem id="up7HpDYA5UMwU" type="829" open="0"/>
+            <listitem id="uTXm7eeA5cEOF" type="829" open="0"/>
+            <listitem id="uSi0sOY57mpQO" type="829" open="0"/>
+            <listitem id="udQ25ac3j1InN" type="829" open="0"/>
+            <listitem id="uy6PJlIUYL87f" type="829" open="0"/>
+            <listitem id="uRJGPHB9ntWzj" type="829" open="0"/>
+            <listitem id="u8x0g0qiRAfYV" type="829" open="0"/>
+            <listitem id="uMFjrvVIigrli" type="829" open="0"/>
+            <listitem id="uyFd3UYHDhJl3" type="829" open="0"/>
+          </listitem>
+          <listitem id="usapqDP4qxRYp" type="810" label="diagramaSecuenciaModificarBorrarEvento" open="0"/>
+          <listitem id="uyJF2QNDDcdVV" type="813" open="1"/>
+          <listitem id="uwjHVcc9B4bCK" type="813" open="1"/>
+          <listitem id="uzC7hqMfiJSEK" type="813" open="1"/>
+        </listitem>
+        <listitem id="Use_Case_View" type="802" open="1"/>
+      </listitem>
+    </listview>
+    <codegeneration>
+      <codegenerator language="C++"/>
+    </codegeneration>
+  </xmi:Extension>
+</xmi:XMI>
