@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C5D1E3A0-0AAC-D810-CA0F-30F6D02AA845" containerWithKeyObject="5046A6A1-B773-3881-AC97-BA4E665DCCDD" localFKIndex="B7BB391B-F6A7-F475-DB9B-36A751C2792E" name="Compra_Usuario_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>2C369313-AC85-253C-D6C1-618C69EC6CCB</importedID>
+<referredTableLongName>Usuario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A7CA9B4F-E32E-C646-98E4-6CC8726419C0</referredTableID>
+<keyObject>A4E8CD30-F762-03F3-704D-B97953254077</keyObject>
+<referredKeyID>A4E8CD30-F762-03F3-704D-B97953254077</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

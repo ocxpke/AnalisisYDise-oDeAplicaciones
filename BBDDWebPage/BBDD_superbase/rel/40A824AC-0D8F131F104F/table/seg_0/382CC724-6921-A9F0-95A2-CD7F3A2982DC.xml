@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="382CC724-6921-A9F0-95A2-CD7F3A2982DC" name="Donacion">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>E1AA503F-2737-2323-6139-5F4E77F585AC</importedID>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CA16771C-75DB-CA92-769E-D3427B822B40">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>73CACC56-6B81-C671-1C24-F0BCAC64BDA6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="677D70AC-C9D5-DD28-5851-2641D5FE5F99">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>ECC4E581-9914-5B18-8ACD-14B4881D93F4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="9B3D5580-6247-C62E-5C24-75E4653C139C">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>70194F6A-7F3B-CE83-4EB1-CD925A4C3A06</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_id" id="D40BF96D-8E7D-6DE2-D975-B8EAD5EFC6BE">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>D45C6B05-4B78-1118-B0F3-2829815DDF22</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F25E6341-ADC6-D535-E600-9D5DB51DB861" referredColumn="F8C362C2-C17F-2932-8519-5F56BE564817"/>
+</associations>
+</Column>
+<Column name="Evento_id" id="599B640A-1A09-4E74-E6ED-F430F5C15B4E">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>34F5F7CB-C9A4-8B51-7AB4-948D9627C4FD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B43A89C9-E52F-308C-3D07-D3C0A565BB58" referredColumn="F268FC14-3420-270C-38C2-CB57C3B1A184"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD68D4CA-12F0-9F4E-AA90-E6E4719F2A4F" name="Donacion_PK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>63FD5B9E-9EBA-0758-EEA7-EB828A0AC715</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA16771C-75DB-CA92-769E-D3427B822B40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CC08A35-5F26-F38C-72AB-0B37CFE8FB7F" name="Donacion_UsuarioDonante_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D40BF96D-8E7D-6DE2-D975-B8EAD5EFC6BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F134CEF0-1D8A-DB16-C20C-0A278FF7A6DA" name="Donacion_Evento_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="599B640A-1A09-4E74-E6ED-F430F5C15B4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

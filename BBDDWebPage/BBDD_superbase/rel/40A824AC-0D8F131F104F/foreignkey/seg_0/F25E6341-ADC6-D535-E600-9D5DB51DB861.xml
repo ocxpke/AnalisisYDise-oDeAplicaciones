@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F25E6341-ADC6-D535-E600-9D5DB51DB861" containerWithKeyObject="382CC724-6921-A9F0-95A2-CD7F3A2982DC" localFKIndex="8CC08A35-5F26-F38C-72AB-0B37CFE8FB7F" name="Donacion_UsuarioDonante_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>7E256F35-081B-7AFA-4EF6-2354D2EB1266</importedID>
+<referredTableLongName>Usuario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A7CA9B4F-E32E-C646-98E4-6CC8726419C0</referredTableID>
+<keyObject>A4E8CD30-F762-03F3-704D-B97953254077</keyObject>
+<referredKeyID>A4E8CD30-F762-03F3-704D-B97953254077</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

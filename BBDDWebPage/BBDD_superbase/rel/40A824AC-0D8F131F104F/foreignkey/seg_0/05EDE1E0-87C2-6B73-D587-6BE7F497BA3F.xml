@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="05EDE1E0-87C2-6B73-D587-6BE7F497BA3F" containerWithKeyObject="C69D1803-30BC-CF57-36CD-BA0C3E39DBA9" localFKIndex="379185CC-255E-83C7-FBEF-B2379DD89819" name="CodigoQr_Entrada_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>18D6C708-CCE1-E3CE-6DFC-328355963116</importedID>
+<referredTableLongName>Entrada</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1D537BD5-49D9-26A6-58D5-474F26759F9E</referredTableID>
+<keyObject>AD00F634-43BB-99EA-B8DF-DD48962ED757</keyObject>
+<referredKeyID>AD00F634-43BB-99EA-B8DF-DD48962ED757</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

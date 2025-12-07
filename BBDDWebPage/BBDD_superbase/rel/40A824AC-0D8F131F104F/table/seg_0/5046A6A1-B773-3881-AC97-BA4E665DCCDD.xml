@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5046A6A1-B773-3881-AC97-BA4E665DCCDD" name="Compra">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>1BCEB080-1BFC-08C9-3DBC-0CF992773593</importedID>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="155CE662-A620-1EBE-7474-59004E981211">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>390E947B-A46A-763D-89C9-CAD81CA1211C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaCompra" id="B5DEE246-AAD2-58F5-F4B7-83251505F6A3">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>4CB2E1EC-DA7E-9DB0-B7B5-C9918ED252FA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidadEntradas" id="067CF219-B088-68E8-5C4D-63EB62F29C16">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>55014D8E-A973-8488-1358-9FE8E427AECB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precioEntrada" id="1D7971CE-496A-233D-3972-F68566CB1CCB">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 11:33:17 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="totalCompra" id="BC61D597-1E76-68A4-3D20-4DAB0208DCB0">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 11:33:17 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_id" id="D2E36BED-2587-28CC-A831-9B377F48C368">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>E1853194-6B86-34B2-0D17-8AA06DCEBFD8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5D1E3A0-0AAC-D810-CA0F-30F6D02AA845" referredColumn="F8C362C2-C17F-2932-8519-5F56BE564817"/>
+</associations>
+</Column>
+<Column name="Evento_id" id="345E2796-ABB1-DC7F-909C-D504474A3133">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>FD57EB37-9C1D-D819-20E7-21B3C3E752D4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F4A4FB7-D5E2-1EA9-222A-3469B0EC359D" referredColumn="F268FC14-3420-270C-38C2-CB57C3B1A184"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACD48808-7A12-CA45-BF1D-7F4688CCB7BE" name="Compra_PK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>83B7E54F-1EEA-A564-63AF-0D1B345389A7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="155CE662-A620-1EBE-7474-59004E981211"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="519ADE78-9CB8-B5B4-FFB3-A98C2E699EDA" name="Compra_Evento_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="345E2796-ABB1-DC7F-909C-D504474A3133"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7BB391B-F6A7-F475-DB9B-36A751C2792E" name="Compra_Usuario_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2E36BED-2587-28CC-A831-9B377F48C368"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

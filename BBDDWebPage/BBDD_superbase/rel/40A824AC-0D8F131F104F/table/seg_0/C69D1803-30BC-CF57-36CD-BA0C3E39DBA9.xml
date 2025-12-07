@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C69D1803-30BC-CF57-36CD-BA0C3E39DBA9" name="CodigoQr">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>C0302455-67B6-3F03-D3A2-3CB0BCB9477C</importedID>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Entrada_id" id="4F7AEDDF-FBC1-0D82-8BE1-F687173207FD">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>85D15E40-C760-BFA1-D33E-FA260C9CD92A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05EDE1E0-87C2-6B73-D587-6BE7F497BA3F" referredColumn="D90618A9-A6A7-3EDD-62B9-64C19C76C1CC"/>
+</associations>
+</Column>
+<Column name="codigo" id="9CE4D776-DFCF-5AE8-F777-46B12CDF5C08">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>D8D19CFC-5E13-9E2C-F308-82BD7F1E9AE7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1AB0373A-4121-352F-9D46-919A7EED9D78" name="CodigoQr_PK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>CF12C052-D40B-9D7A-44AF-B4FE04E2C962</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F7AEDDF-FBC1-0D82-8BE1-F687173207FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C02DD7D-8202-3A71-B762-A43150CF222C" name="CodigoQr__UN">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>243D6AD6-ADDA-1FF2-1007-99C8CF69CCA0</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CE4D776-DFCF-5AE8-F777-46B12CDF5C08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="379185CC-255E-83C7-FBEF-B2379DD89819" name="CodigoQr_Entrada_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F7AEDDF-FBC1-0D82-8BE1-F687173207FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

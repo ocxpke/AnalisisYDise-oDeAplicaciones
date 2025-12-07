@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B77A4E6F-15A5-E854-7208-FD5AC6D3ECB1" name="Voluntario">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>3D393CC8-D17F-1902-9D32-BBBEDB5A70EA</importedID>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F4B40140-9785-B209-6C87-25579E78249D">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>CE230DD5-5718-F41D-4C45-0DB8B73F6D7D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tareasAsignadas" id="61F331D0-9BDB-0774-59B3-429B58EFC0C2">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>668D726C-1186-F7B8-1888-85BA6055B8CB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Evento_id" id="16DAA94F-CCBA-3B38-1E91-3C6576DC03F1">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>941AECD7-384F-210A-72D8-088AFBA3F2A2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3852BC16-4DA3-32D4-878D-30CEA86157F4" referredColumn="F268FC14-3420-270C-38C2-CB57C3B1A184"/>
+</associations>
+</Column>
+<Column name="Usuario_id" id="B5A9DF52-1855-54A5-E9F5-0DA4A157A90B">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 12:21:17 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D239BA1D-CAE4-71BD-A8E9-17B50F284C68" referredColumn="F8C362C2-C17F-2932-8519-5F56BE564817"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEFE3E5A-0EF2-0B58-F892-4936B6887DCA" name="Voluntario_PK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>F189A24F-586A-6661-0DDA-36F13FE06732</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4B40140-9785-B209-6C87-25579E78249D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D787EE50-5F0C-E828-3A0C-A710599F28BA" name="Vol_Even_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16DAA94F-CCBA-3B38-1E91-3C6576DC03F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7EC7C33-687B-8FBF-853E-4C414A744DEF" name="Vol_Usu_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 12:21:17 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5A9DF52-1855-54A5-E9F5-0DA4A157A90B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

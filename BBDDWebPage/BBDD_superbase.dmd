@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BBDD_superbase" id="E9022846-D454-CAE8-E6AB-745A13B6229A" version="3.5">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 09:29:12 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E9022846-D454-CAE8-E6AB-745A13B6229A</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7F3587EA-C2F6-EFD3-29FF-1A65F4531AF7">
+<designStoragePath>/home/ocxpke/universidad/curso25-26/ADAplicaciones/trabajoGrupalAdap/Diagramas/DiagramaER_DM</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

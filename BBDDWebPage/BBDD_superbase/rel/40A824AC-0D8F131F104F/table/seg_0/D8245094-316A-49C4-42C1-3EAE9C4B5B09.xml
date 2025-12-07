@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8245094-316A-49C4-42C1-3EAE9C4B5B09" name="CertificadoDonacion">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>4EB8CDBE-4D45-6092-D015-B4406DC4E939</importedID>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Donacion_id" id="EF6E7B1A-D4A6-9F43-D9CE-75B67D30819E">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>7C82730F-10E0-3BFC-0DD0-530C94CF75B8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0C04053-337B-8FBF-2047-8FAA452B04A8" referredColumn="CA16771C-75DB-CA92-769E-D3427B822B40"/>
+</associations>
+</Column>
+<Column name="codigoValidacion" id="AA9BD3E9-2C01-A4C9-0453-D388DD0FF91E">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>576E9946-6E8C-73C1-8F7F-715AF7913ADE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Notificacion_id" id="3069A0AF-7768-AE26-4FEF-5FDBF5B78EE7">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 11:11:38 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D2CFAF4-4C40-D75F-30BA-53BD0F57F1E0" referredColumn="1A806A0D-8DB2-BBEE-AB38-A398F1683D63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2B46E23-18BC-77D4-D01F-9C9C31B38D26" name="CertificadoDonacion_PK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>372C1486-5C31-CC3E-F60F-ED1F877515A9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF6E7B1A-D4A6-9F43-D9CE-75B67D30819E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6CB4CB9-02DA-64AB-DA54-1E4ED2B9374C" name="CertDon_Donacion_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF6E7B1A-D4A6-9F43-D9CE-75B67D30819E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6808864F-60C6-E70B-8452-16FC67D634FA" name="CertDon_Notificacion_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 11:14:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3069A0AF-7768-AE26-4FEF-5FDBF5B78EE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

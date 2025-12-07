@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3D2CFAF4-4C40-D75F-30BA-53BD0F57F1E0" containerWithKeyObject="D8245094-316A-49C4-42C1-3EAE9C4B5B09" localFKIndex="6808864F-60C6-E70B-8452-16FC67D634FA" name="CertDon_Notificacion_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 11:14:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<referredTableLongName>Notificacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>82BED3B4-416B-D2F6-FEC0-9973E5314896</referredTableID>
+<keyObject>2B2EB464-92B9-DFC2-B2E0-552925102586</keyObject>
+<referredKeyID>2B2EB464-92B9-DFC2-B2E0-552925102586</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82BED3B4-416B-D2F6-FEC0-9973E5314896" name="Notificacion">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>AB67C8CE-928C-2A6F-CE94-5EBA5747FB34</importedID>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1A806A0D-8DB2-BBEE-AB38-A398F1683D63">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>63BD361B-B4A2-BE30-3CC6-60666475ED3C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mensaje" id="A91DE8FB-8B15-DE53-D72C-19FC5441A26D">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>DFD11302-26CC-F75F-8F68-36EE828AE9D2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaEnvio" id="18AC67CA-1DC5-971C-5AE1-931C8462AC3C">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>15D2876F-E261-B46F-DE15-9E525089215E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Evento_id" id="DC4EADE7-A7C7-5431-8B03-DB31DE99F8E1">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>E6CB8FC7-2335-606F-7DB5-ED5385A22EFE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0841B3B1-72AE-3E17-EA38-D2286B302C3C" referredColumn="F268FC14-3420-270C-38C2-CB57C3B1A184"/>
+</associations>
+</Column>
+<Column name="Usuario_id" id="79E943A0-0464-A971-EF26-FE1F53802D65">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 11:15:52 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E7C631E-D8A2-0E9D-0DCA-2B0441BB3C6D" referredColumn="F8C362C2-C17F-2932-8519-5F56BE564817"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B2EB464-92B9-DFC2-B2E0-552925102586" name="Notificacion_PK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<importedID>60CC225E-6B3E-95F1-2702-93BEC1A86A7F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A806A0D-8DB2-BBEE-AB38-A398F1683D63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD601687-FBC3-AD92-924E-57B229C51550" name="Notificacion_Evento_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:40:07 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC4EADE7-A7C7-5431-8B03-DB31DE99F8E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD4EC72B-5562-99B8-0060-9CC0168A8CF0" name="Notificacion_Usuario_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 11:15:52 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79E943A0-0464-A971-EF26-FE1F53802D65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

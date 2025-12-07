@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D3007B02-118F-EEA8-F75F-B863B0883B4D" mainViewID="50EA628A-12ED-BB48-97F6-9DCDD91578AF">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 09:29:12 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

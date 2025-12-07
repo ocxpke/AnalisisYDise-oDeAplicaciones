@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1(2)" id="40A824AC-3733-3619-0B62-0D8F131F104F" mainViewID="F0152837-25B8-B0E2-B419-04FB9DE9C1C7">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:39:49 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+</relationalModel>

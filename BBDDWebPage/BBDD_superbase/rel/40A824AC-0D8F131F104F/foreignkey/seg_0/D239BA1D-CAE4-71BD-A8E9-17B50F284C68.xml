@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D239BA1D-CAE4-71BD-A8E9-17B50F284C68" containerWithKeyObject="B77A4E6F-15A5-E854-7208-FD5AC6D3ECB1" localFKIndex="D7EC7C33-687B-8FBF-853E-4C414A744DEF" name="Vol_Usu_FK">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 12:21:17 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<referredTableLongName>Usuario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A7CA9B4F-E32E-C646-98E4-6CC8726419C0</referredTableID>
+<keyObject>A4E8CD30-F762-03F3-704D-B97953254077</keyObject>
+<referredKeyID>A4E8CD30-F762-03F3-704D-B97953254077</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
