@@ -91,6 +91,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="imageURL" id="60961AAD-0180-97A1-D479-3D4A34B018C4">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-09 12:25:42 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="tipoEvento" id="646D369F-5498-4229-6AD1-2BED6F85A19E">
 <createdBy>ocxpke</createdBy>
 <createdTime>2025-12-07 10:40:07 UTC</createdTime>
@@ -124,6 +136,16 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precioEntrada" id="354EF917-216E-79CF-9501-BFBFE477819E">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-09 13:34:51 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

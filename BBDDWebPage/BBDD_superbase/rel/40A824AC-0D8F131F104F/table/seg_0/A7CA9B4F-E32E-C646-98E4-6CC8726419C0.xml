@@ -62,7 +62,6 @@
 <createdTime>2025-12-07 10:40:07 UTC</createdTime>
 <ownerDesignName>BBDD_superbase</ownerDesignName>
 <importedID>EACD329C-B940-B21F-BEC4-86061419765B</importedID>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -96,16 +95,6 @@
 <ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="socio" id="D93AEEEA-02AD-74BD-FF64-2F9738C90A7F">
-<createdBy>ocxpke</createdBy>
-<createdTime>2025-12-07 10:45:33 UTC</createdTime>
-<ownerDesignName>BBDD_superbase</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="direccion" id="8CBCE594-5A07-66F7-BA6D-06FD01E51403">
 <createdBy>ocxpke</createdBy>
 <createdTime>2025-12-07 10:46:12 UTC</createdTime>
@@ -125,6 +114,37 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="242B1408-B61B-DF0D-861E-3D01F50A12D4">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-09 13:28:51 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="admin" id="3CDCC764-0315-836B-34DE-8D0EF10F5233">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-09 12:26:41 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="socio" id="D93AEEEA-02AD-74BD-FF64-2F9738C90A7F">
+<createdBy>ocxpke</createdBy>
+<createdTime>2025-12-07 10:45:33 UTC</createdTime>
+<ownerDesignName>BBDD_superbase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
